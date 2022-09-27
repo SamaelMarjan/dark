@@ -8,14 +8,14 @@ const Navbar = () => {
                 <div className='bg-[#3c6a01] w-[30px] h-[30px]'>
                     
                 </div>
-                <div>
-                    <div>
-                        <a href='#home'>Home</a>
-                        <a href='b'>Services</a>
-                        <a href='c'>Jobs</a>
-                        <a href='d'>Contact</a>
+                <div className='flex gap-4 items-center justify-center'>
+                    <div className='flex gap-[4px]'>
+                        <a href='#home' className='w-[50px] h-[20px] bg-[#3c6a01] rounded-lg p-1 flex items-center justify-center'>Home</a>
+                        <a href='b' className='w-[100%] h-[20px] bg-[#3c6a01] rounded-lg p-1 flex items-center justify-center'>Services</a>
+                        <a href='c' className='w-[1000%] h-[20px] bg-[#3c6a01] rounded-lg p-1 flex items-center justify-center'>Jobs</a>
+                        <a href='d' className='w-[100%] h-[20px] bg-[#3c6a01] rounded-lg p-1 flex items-center justify-center'>Contact</a>
                     </div>
-                    <div></div>
+                    <div className='bg-[#3c6a01] p-2 rounded-lg'>SignUp</div>
                 </div>
             </div>
         </div>
