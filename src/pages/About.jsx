@@ -1,24 +1,40 @@
 import React from 'react';
 
+import Img from '../assets/artificial-intelligence 1.png';
+import Img2 from '../assets/group 1.png';
+import Img3 from '../assets/world-grid 1.png';
+import Img4 from '../assets/imagem_sistemas.png';
+import Img5 from '../assets/outsourcing.png';
+import Img6 from '../assets/legado_aplicativos.png';
+import Img7 from '../assets/hunting.png';
+
 const About = () => {
   return (
     <>
-        <div className='w-[100%] h-[200px] md:h-[500px] flex items-center justify-center'>
-            <div className='w-[90%] h-[100%] flex items-center justify-center gap-7'>
-                <div className='rounded-lg w-[30%] h-[50%] md:h-[70%] bg-[#3c6a01] flex items-center justify-center'>
-                    Image/Text
+        <div className='w-[100%] h-[900px] md:h-[500px] flex items-center justify-center'>
+            <div className='w-[90%] h-[100%] flex flex-col md:flex-row items-center justify-center gap-7'>
+                <div className='rounded-lg w-[80%] md:w-[30%] h-[30%] md:h-[80%] bg-[#000] flex flex-col items-center justify-center'>
+                    <img src={Img} alt='img' />
+                    <p className='font-normal text-5xl'>+150</p>
+                    <p className='font-normal text-lg text-center'>Professionals already hired</p>
                 </div>
-                <div className='rounded-lg w-[30%] h-[50%] md:h-[70%] bg-[#3c6a01] flex items-center justify-center'>
-                    Image/Text
+                <div className='rounded-lg w-[80%] md:w-[30%] h-[30%] md:h-[80%] bg-[#000] flex flex-col items-center justify-center'>
+                    <img src={Img2} alt='img' />
+                    <p className='font-normal text-5xl'>+100</p>
+                    <p className='font-normal text-lg text-center'>Customers already served</p>
                 </div>
-                <div className='rounded-lg w-[30%] h-[50%] md:h-[70%] bg-[#3c6a01] flex items-center justify-center'>
-                    Image/text
+                <div className='rounded-lg w-[80%] md:w-[30%] h-[30%] md:h-[80%] bg-[#000] flex flex-col items-center justify-center'>
+                    <img className='' src={Img3} alt='img' />
+                    <p className='font-normal text-base md:text-5xl'>+2500</p>
+                    <p className='font-normal text-sm md:text-lg text-center'>Professionals in the database</p>
                 </div>
             </div>
         </div>
         <div className='w-[90%] h-[100%] m-auto flex flex-col gap-4'>
             <div className='w-[100%] h-[900px] md:h-[500px] flex flex-col md:flex-row gap-4'>
-                <div className='rounded-lg w-[100%] md:w-[50%] h-[40%] md:h-[100%] bg-[#3c6a01] flex items-center justify-center'>Image/Text</div>
+                <div className='rounded-lg w-[100%] md:w-[50%] h-[40%] md:h-[100%] flex items-center justify-center'>
+                    <img src={Img4} alt='img' />
+                </div>
                 <div className='w-[100%] md:w-[50%] h-[30%] md:h-[100%] flex flex-col justify-center gap-4'>
                     <p className='w-[100%] md:w-[100%] h-[50%] md:h-[15%] font-bold text-4xl'>
                         Systems development <span className='block text-[#FA002D]'>web <span className='text-[#fff]'>and</span> mobile</span>
@@ -38,10 +54,14 @@ const About = () => {
                         We are looking for professionals in the job market to work for our clients. The professional goes through a selection, tests and evaluations to identify if the candidate's profile is compatible with the vacancy profile of our clients. The professional can be hired in the following ways: PJ or CLT by us and allocated within the client's office; PJ or CLT by us and acting in our office with the client's demands;
                     </p>
                 </div>
-                <div className='rounded-lg w-[100%] md:w-[50%] h-[40%] md:h-[100%] bg-[#3c6a01] flex items-center justify-center'>Image/Text</div>
+                <div className='rounded-lg w-[100%] md:w-[50%] h-[40%] md:h-[100%] flex items-center justify-center'>
+                    <img src={Img5} alt='img' />
+                </div>
             </div>
             <div className=' w-[100%] h-[900px] md:h-[500px] flex flex-col md:flex-row gap-4'>
-                <div className='rounded-lg w-[100%] md:w-[50%] h-[40%] md:h-[100%] bg-[#3c6a01] flex items-center justify-center'>Image/Text</div>
+                <div className='rounded-lg w-[100%] md:w-[50%] h-[40%] md:h-[100%] flex items-center justify-center'>
+                    <img src={Img6} alt='img' />
+                </div>
                 <div className=' w-[100%] md:w-[50%] h-[30%] md:h-[100%] flex flex-col items-center justify-center gap-4'>
                     <p className='w-[100%] md:w-[100%] h-[60%] md:h-[15%] font-bold text-4xl'>
                         systems support
@@ -63,7 +83,9 @@ const About = () => {
                         PJ ou CLT vinculado ao cliente, e atuando dentro das dependências do cliente;
                     </p>
                 </div>
-                <div className='rounded-lg w-[100%] md:w-[50%] h-[40%] md:h-[100%] bg-[#3c6a01] flex items-center justify-center'>Image/Text</div>
+                <div className='rounded-lg w-[100%] md:w-[50%] h-[40%] md:h-[100%] flex items-center justify-center'>
+                    <img src={Img7} alt='img' />
+                </div>
             </div>
         </div>
     </>

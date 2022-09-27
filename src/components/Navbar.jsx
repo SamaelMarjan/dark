@@ -10,10 +10,10 @@ const Navbar = () => {
                 </div>
                 <div className='flex gap-4 items-center justify-center'>
                     <div className='flex gap-[4px]'>
-                        <a href='#home' className='w-[50px] h-[20px] bg-[#3c6a01] rounded-lg p-1 flex items-center justify-center'>Home</a>
-                        <a href='b' className='w-[100%] h-[20px] bg-[#3c6a01] rounded-lg p-1 flex items-center justify-center'>Services</a>
-                        <a href='c' className='w-[1000%] h-[20px] bg-[#3c6a01] rounded-lg p-1 flex items-center justify-center'>Jobs</a>
-                        <a href='d' className='w-[100%] h-[20px] bg-[#3c6a01] rounded-lg p-1 flex items-center justify-center'>Contact</a>
+                        <a href='#home' className='w-[50px] h-[20px] rounded-lg p-1 flex items-center justify-center'>Home</a>
+                        <a href='b' className='w-[100%] h-[20px] rounded-lg p-1 flex items-center justify-center'>Services</a>
+                        <a href='c' className='w-[1000%] h-[20px] rounded-lg p-1 flex items-center justify-center'>Jobs</a>
+                        <a href='d' className='w-[100%] h-[20px] rounded-lg p-1 flex items-center justify-center'>Contact</a>
                     </div>
                     <div className='bg-[#3c6a01] p-2 rounded-lg'>SignUp</div>
                 </div>

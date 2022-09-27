@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 
+import Img from '../assets/legado_aplicativos.png';
 
 const Home = () => {
   return (
@@ -12,14 +13,14 @@ const Home = () => {
                     <p className='font-normal text-lg md:h-[20%]'>We work in the development of web and mobile systems and database integration, tailored and on demand.</p>
                     <a href='a' className='rounded-lg w-[200px] h-[50px] md:h-[50px] bg-[#555555] flex justify-center items-center hover:bg-[#3c6a01] text-[#fff]'>KNOW MORE NOW</a>
                 </div>
-                <div className='bg-[#3c6a01] rounded-lg w-[100%] md:w-[50%] h-[400px] md:h-[600px] flex items-center justify-center'> 
-                    Image/Text
+                <div className='w-[100%] md:w-[50%] h-[400px] md:h-[600px] flex items-center justify-center'> 
+                    <img src={Img} alt='img' />
                 </div>
             </div>
         </div>
     </div>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
