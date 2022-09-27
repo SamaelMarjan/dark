@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
     <div id='home'>
-        <div className='bg-[#2d2d2d] w-[100%] h-[800px] md:h-[670px]'>
+        <div className='w-[100%] h-[800px] md:h-[670px]'>
             <div className='w-[90%] h-[100%] m-auto flex flex-col md:flex-row items-center justify-center gap-4'>
                 <div className='gap-4 w-[100%] md:w-[50%] h-[300px] md:h-[400px] flex flex-col items-center justify-center md:items-start text-[#D3D3D3]'>
                     <p className='w-[100%] md:w[90%] h-[50px] md:h-[35%] font-bold text-xl md:text-5xl text-[#D3D3D3]'>Desenvolvimento de Sistemas Web e Mobile</p>
